@@ -1,0 +1,57 @@
+html,
+body {
+    height: 950px;
+    /* The html and body elements cannot have any padding or margin. */
+    background: none repeat scroll 0% 0% #F1F1F1;
+    position: relative;
+   
+}
+
+.conteudo{
+    min-height: 100%;
+
+}
+* html .conteudo {
+    height: 100%; /* hack para IE6 que trata height como min-height */
+}
+
+
+
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+
+    height: 100px;
+    width: 100%;
+}
+#footer {
+
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Custom page CSS
+   -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+    width: auto;
+    max-width: 680px;
+}
+.container .credit {
+    margin: 20px 0;
+    color: #000;
+}
