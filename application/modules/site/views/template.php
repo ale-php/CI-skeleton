@@ -7,7 +7,7 @@
 
    <style type="text/css">
 
-       @import url("<?php echo base_url('public/css/bootstrap-flatly.css');?>");
+       @import url("<?php echo base_url('public/css/bootstrap-space.css');?>");
        @import url("<?php echo base_url('public/css/style.css');?>");
    </style>
 
