@@ -1,4 +1,4 @@
 CI-skeleton
 ===========
 
-Codeigniter com datamapper ORM em HTML
+Codeigniter 3 Com Doctrine ORM
